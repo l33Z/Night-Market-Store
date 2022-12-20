@@ -1,0 +1,118 @@
+.item__Main {
+  width: calc(100vw - 8rem);
+  min-height: calc(100vh - 5rem);
+  position: absolute;
+  top: 5rem;
+  left: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2b2b;
+  border-radius: 0.5rem;
+}
+
+.item__Container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item__leftSide {
+  width: 50%;
+  height: 100%;
+}
+
+.mySwiper {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50rem;
+}
+
+.mySwiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+
+.item__rightSide {
+  padding-left: 8rem;
+  width: 50%;
+}
+
+.item__rightSide h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.item__rightSide .item_desc {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 400;
+  color: #c9d6e2;
+}
+
+.item__rightSide .item_price {
+  margin-top: 1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 400;
+  color: #c9d6e2;
+  width: max-content;
+  background-color: #363636;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.item__rightSide .item_catg {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #c9d6e2;
+}
+
+.item__rightSide .item_disc {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #c9d6e2;
+}
+
+.item__rightSide .item_brand {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #c9d6e2;
+}
+
+.item__rightSide .item_rating {
+  width: max-content;
+  padding: 0.7rem 2rem;
+  background-color: yellow;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  color: #000000;
+}
+
+.item__rightSide .item_stock {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #c9d6e2;
+}
+
+.item_btns {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

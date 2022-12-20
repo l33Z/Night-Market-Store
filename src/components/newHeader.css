@@ -1,0 +1,45 @@
+.header__Main {
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #202020;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.headerLogo p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.header__search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  background-color: #323232;
+  border-radius: 0.5rem;
+  padding-right: 2rem;
+}
+
+.header__search i {
+  font-size: 1.4rem;
+}
+
+.header__search input {
+  width: 90%;
+  padding: 1rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.account__Details i {
+  font-size: 1.8rem;
+}
